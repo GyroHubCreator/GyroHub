@@ -1,0 +1,38 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Gyro V1", "Synapse")
+
+-- Blox Fruits
+local Main = Window:NewTab("BloxFruits")
+local Mainsection = Main:NewSection("Blox Fruits")
+
+
+Mainsection:NewButton("Neva HUB", "Blox Fruits Neva Hub Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+
+Section:NewButton("Mukuro HUB", "Another Blox Fruits Script -_-", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+
+
+Section:NewButton("Madox Hub", "Madox Blox fruits lol", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+
+Section:NewButton("CFrame Hub", "CFrame", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Steveee11/Scripts/main/Blox%20Fruits%20OP%20Script"))()
+end)
+
+
+-- YBA
+local Tab = Window:NewTab("YBA")
+local Section = Tab:NewSection("YBA")
+
+
+Section:NewButton("YBA HaHa Hub", "HAHAHAHHAHHA", function()
+    getgenv().Key = "HelloEpicGUI"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SupBabe/YBAHOPPER/main/YBAv2.lua"))()
+end)
